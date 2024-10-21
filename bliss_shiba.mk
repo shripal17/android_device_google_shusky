@@ -23,6 +23,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Gapps
 TARGET_STOCK_GAPPS := true
 
+# Bliss build type
+BLISS_BUILDTYPE := OFFICIAL
+
+# Device related
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS := true
 

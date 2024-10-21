@@ -20,6 +20,13 @@ PRODUCT_MODEL := Pixel 8 Pro
 PRODUCT_NAME := bliss_husky
 
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Bliss build type
+BLISS_BUILDTYPE := OFFICIAL
+
+# Device related
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Gapps
 TARGET_STOCK_GAPPS := true
 
