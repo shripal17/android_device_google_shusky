@@ -17,4 +17,7 @@
 
 <resources>
     <string name="config_regulatory_info_overlay_package_name" translatable="false">com.android.settings.shiba</string>
+    
+    <!-- The radius of the enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">135</integer>
 </resources>
