@@ -12,5 +12,3 @@ $(call inherit-product, device/google/shusky/device-lineage.mk)
 
 PRODUCT_PACKAGES += \
     PixelDisplayServiceOverlayShiba
-
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop

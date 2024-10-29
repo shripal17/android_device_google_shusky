@@ -22,9 +22,6 @@ PRODUCT_PACKAGES += \
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
-# PixelParts
-include packages/apps/PixelParts/device.mk
-
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
@@ -32,7 +29,7 @@ include hardware/google/pixel/powershare/device.mk
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
 # Pixel Framework
-$(call inherit-product, vendor/pixel-framework/config.mk)
+#$(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Build necessary packages for vendor
 
