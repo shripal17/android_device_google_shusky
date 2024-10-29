@@ -44,3 +44,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/husky/husky:14/AP2A.240905.003/12231197:user/release-keys
 
 $(call inherit-product, vendor/google/husky/husky-vendor.mk)
+
+RECOVERY_IMAGES := boot.img,dtbo.img,init_boot.img,vendor_boot.img,vendor_kernel_boot.img,vbmeta.img
